@@ -1,0 +1,1168 @@
+local d = game.Players.LocalPlayer
+local dg = d:WaitForChild("PlayerGui")
+
+-- Имя скрингуи, который мы ищем
+local guiName = "neforswtf"
+
+-- Проверяем, существует ли скрингуи
+local existingGui = dg:FindFirstChild(guiName)
+
+if existingGui then
+	-- Если существует, удаляем его
+	existingGui:Destroy()
+end
+
+-- Создаем новый скрингуи
+local neforswtf = Instance.new("ScreenGui")
+
+-- Здесь можно добавить дополнительные элементы в новый скрингуи
+local MAIN = Instance.new("Frame")
+local autofarmMain = Instance.new("Frame")
+local Firstpanel = Instance.new("Frame")
+local Autofarm = Instance.new("TextButton")
+local Enabled = Instance.new("ImageLabel")
+local UICorner = Instance.new("UICorner")
+local UICorner_2 = Instance.new("UICorner")
+local Secondpanel = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local FourthPanel = Instance.new("Frame")
+local UICorner_4 = Instance.new("UICorner")
+local Thirdpanel = Instance.new("Frame")
+local UICorner_5 = Instance.new("UICorner")
+local UICorner_6 = Instance.new("UICorner")
+local configs = Instance.new("TextButton")
+local autofarm = Instance.new("TextButton")
+local maintitle = Instance.new("TextButton")
+local title = Instance.new("ImageLabel")
+local mainMainlol = Instance.new("Frame")
+local Firstpanel_2 = Instance.new("Frame")
+local ESP = Instance.new("TextButton")
+local Enabled_2 = Instance.new("ImageLabel")
+local UICorner_7 = Instance.new("UICorner")
+local Noclip = Instance.new("TextButton")
+local Enabled_3 = Instance.new("ImageLabel")
+local UICorner_8 = Instance.new("UICorner")
+local Freezer = Instance.new("TextButton")
+local Enabled_4 = Instance.new("ImageLabel")
+local UICorner_9 = Instance.new("UICorner")
+local UICorner_10 = Instance.new("UICorner")
+local Secondpanel_2 = Instance.new("Frame")
+local UICorner_11 = Instance.new("UICorner")
+local FourthPanel_2 = Instance.new("Frame")
+local UICorner_12 = Instance.new("UICorner")
+local Thirdpanel_2 = Instance.new("Frame")
+local UICorner_13 = Instance.new("UICorner")
+local UICorner_14 = Instance.new("UICorner")
+local configsMain = Instance.new("Frame")
+local Firstpanel_3 = Instance.new("Frame")
+local defcfg = Instance.new("TextButton")
+local ImageLabel = Instance.new("ImageLabel")
+local UICorner_15 = Instance.new("UICorner")
+local saveurcfghere = Instance.new("TextLabel")
+local configisa = Instance.new("TextLabel")
+local TextLabel = Instance.new("TextLabel")
+local backgroundbutton = Instance.new("TextLabel")
+local UICorner_16 = Instance.new("UICorner")
+local TextButton = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local UICorner_18 = Instance.new("UICorner")
+local UICorner_19 = Instance.new("UICorner")
+local backgroundmenu = Instance.new("ImageLabel")
+local UICorner_20 = Instance.new("UICorner")
+local backgroundmenu_2 = Instance.new("ImageLabel")
+local UICorner_21 = Instance.new("UICorner")
+local blur_background = Instance.new("ImageLabel")
+local UICorner_22 = Instance.new("UICorner")
+local linebutton = Instance.new("TextButton")
+local UICorner_23 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local version = Instance.new("TextLabel")
+local UICorner_24 = Instance.new("UICorner")
+local bubblebutton = Instance.new("Frame")
+local Logo = Instance.new("ImageButton")
+local UICorner_25 = Instance.new("UICorner")
+
+--Properties:
+
+neforswtf.Name = "neforswtf"
+neforswtf.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+neforswtf.Enabled = false
+neforswtf.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+neforswtf.ResetOnSpawn = false
+
+MAIN.Name = "MAIN"
+MAIN.Parent = neforswtf
+MAIN.BackgroundColor3 = Color3.fromRGB(41, 42, 49)
+MAIN.BorderColor3 = Color3.fromRGB(0, 0, 0)
+MAIN.BorderSizePixel = 0
+MAIN.Position = UDim2.new(0.333498716, 0, 0.186948508, 0)
+MAIN.Size = UDim2.new(0, 470, 0, 542)
+
+autofarmMain.Name = "autofarmMain"
+autofarmMain.Parent = MAIN
+autofarmMain.BackgroundColor3 = Color3.fromRGB(46, 44, 54)
+autofarmMain.BorderColor3 = Color3.fromRGB(0, 0, 0)
+autofarmMain.BorderSizePixel = 0
+autofarmMain.Position = UDim2.new(0.0300999414, 0, 0.06612923, 0)
+autofarmMain.Size = UDim2.new(0, 442, 0, 496)
+autofarmMain.Visible = false
+autofarmMain.ZIndex = 2
+
+Firstpanel.Name = "Firstpanel"
+Firstpanel.Parent = autofarmMain
+Firstpanel.BackgroundColor3 = Color3.fromRGB(29, 31, 39)
+Firstpanel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Firstpanel.BorderSizePixel = 0
+Firstpanel.Position = UDim2.new(0.0244444441, 0, 0.028056113, 0)
+Firstpanel.Size = UDim2.new(0, 215, 0, 213)
+
+Autofarm.Name = "Autofarm"
+Autofarm.Parent = Firstpanel
+Autofarm.BackgroundColor3 = Color3.fromRGB(88, 88, 126)
+Autofarm.BackgroundTransparency = 0.500
+Autofarm.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Autofarm.BorderSizePixel = 0
+Autofarm.Position = UDim2.new(0.0325581394, 0, 0.0422535203, 0)
+Autofarm.Size = UDim2.new(0, 201, 0, 35)
+Autofarm.Font = Enum.Font.GothamBold
+Autofarm.Text = "Autofarm"
+Autofarm.TextColor3 = Color3.fromRGB(255, 255, 255)
+Autofarm.TextSize = 24.000
+
+Enabled.Name = "Enabled"
+Enabled.Parent = Autofarm
+Enabled.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Enabled.BackgroundTransparency = 1.000
+Enabled.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Enabled.BorderSizePixel = 0
+Enabled.Position = UDim2.new(0.0370370373, 0, 0.0857142881, 0)
+Enabled.Size = UDim2.new(0, 28, 0, 28)
+Enabled.Visible = false
+Enabled.Image = "rbxassetid://17072141175"
+
+UICorner.CornerRadius = UDim.new(0, 4)
+UICorner.Parent = Autofarm
+
+UICorner_2.Parent = Firstpanel
+
+Secondpanel.Name = "Secondpanel"
+Secondpanel.Parent = autofarmMain
+Secondpanel.BackgroundColor3 = Color3.fromRGB(29, 31, 39)
+Secondpanel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Secondpanel.BorderSizePixel = 0
+Secondpanel.Position = UDim2.new(0.519999921, 0, 0.028056113, 0)
+Secondpanel.Size = UDim2.new(0, 204, 0, 213)
+
+UICorner_3.Parent = Secondpanel
+
+FourthPanel.Name = "FourthPanel"
+FourthPanel.Parent = autofarmMain
+FourthPanel.BackgroundColor3 = Color3.fromRGB(29, 31, 39)
+FourthPanel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+FourthPanel.BorderSizePixel = 0
+FourthPanel.Position = UDim2.new(0.522262394, 0, 0.491018355, 0)
+FourthPanel.Size = UDim2.new(0, 203, 0, 213)
+
+UICorner_4.Parent = FourthPanel
+
+Thirdpanel.Name = "Thirdpanel"
+Thirdpanel.Parent = autofarmMain
+Thirdpanel.BackgroundColor3 = Color3.fromRGB(29, 31, 39)
+Thirdpanel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Thirdpanel.BorderSizePixel = 0
+Thirdpanel.Position = UDim2.new(0.0244444422, 0, 0.491018355, 0)
+Thirdpanel.Size = UDim2.new(0, 214, 0, 213)
+
+UICorner_5.Parent = Thirdpanel
+
+UICorner_6.Parent = autofarmMain
+
+configs.Name = "configs"
+configs.Parent = MAIN
+configs.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+configs.BackgroundTransparency = 1.000
+configs.BorderColor3 = Color3.fromRGB(0, 0, 0)
+configs.BorderSizePixel = 0
+configs.Position = UDim2.new(0.830216825, 0, 0.0202005822, 0)
+configs.Size = UDim2.new(0, 58, 0, 17)
+configs.Font = Enum.Font.Gotham
+configs.Text = "configs"
+configs.TextColor3 = Color3.fromRGB(140, 140, 140)
+configs.TextSize = 19.000
+
+autofarm.Name = "autofarm"
+autofarm.Parent = MAIN
+autofarm.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+autofarm.BackgroundTransparency = 1.000
+autofarm.BorderColor3 = Color3.fromRGB(0, 0, 0)
+autofarm.BorderSizePixel = 0
+autofarm.Position = UDim2.new(0.655076563, 0, 0.0202005822, 0)
+autofarm.Size = UDim2.new(0, 58, 0, 17)
+autofarm.Font = Enum.Font.Gotham
+autofarm.Text = "autofarm"
+autofarm.TextColor3 = Color3.fromRGB(140, 140, 140)
+autofarm.TextSize = 19.000
+
+maintitle.Name = "maintitle"
+maintitle.Parent = MAIN
+maintitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+maintitle.BackgroundTransparency = 1.000
+maintitle.BorderColor3 = Color3.fromRGB(0, 0, 0)
+maintitle.BorderSizePixel = 0
+maintitle.Position = UDim2.new(0.508202374, 0, 0.0202005822, 0)
+maintitle.Size = UDim2.new(0, 51, 0, 17)
+maintitle.Font = Enum.Font.Gotham
+maintitle.Text = "main"
+maintitle.TextColor3 = Color3.fromRGB(140, 140, 140)
+maintitle.TextSize = 19.000
+
+title.Name = "title"
+title.Parent = MAIN
+title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+title.BackgroundTransparency = 1.000
+title.BorderColor3 = Color3.fromRGB(0, 0, 0)
+title.BorderSizePixel = 0
+title.Position = UDim2.new(0.0300999414, 0, -0.0848708451, 0)
+title.Size = UDim2.new(0, 140, 0, 139)
+title.Image = "http://www.roblox.com/asset/?id=124149042680764"
+
+mainMainlol.Name = "mainMainlol"
+mainMainlol.Parent = MAIN
+mainMainlol.BackgroundColor3 = Color3.fromRGB(46, 44, 54)
+mainMainlol.BorderColor3 = Color3.fromRGB(0, 0, 0)
+mainMainlol.BorderSizePixel = 0
+mainMainlol.Position = UDim2.new(0.0299999993, 0, 0.0659999996, 0)
+mainMainlol.Size = UDim2.new(0, 442, 0, 496)
+mainMainlol.Visible = false
+mainMainlol.ZIndex = 2
+
+Firstpanel_2.Name = "Firstpanel"
+Firstpanel_2.Parent = mainMainlol
+Firstpanel_2.BackgroundColor3 = Color3.fromRGB(29, 31, 39)
+Firstpanel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Firstpanel_2.BorderSizePixel = 0
+Firstpanel_2.Position = UDim2.new(0.0244444441, 0, 0.028056113, 0)
+Firstpanel_2.Size = UDim2.new(0, 215, 0, 213)
+
+ESP.Name = "ESP"
+ESP.Parent = Firstpanel_2
+ESP.BackgroundColor3 = Color3.fromRGB(88, 88, 126)
+ESP.BackgroundTransparency = 0.500
+ESP.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ESP.BorderSizePixel = 0
+ESP.Position = UDim2.new(0.0325581394, 0, 0.0422535203, 0)
+ESP.Size = UDim2.new(0, 200, 0, 35)
+ESP.Font = Enum.Font.GothamBold
+ESP.Text = "ESP"
+ESP.TextColor3 = Color3.fromRGB(255, 255, 255)
+ESP.TextSize = 24.000
+
+Enabled_2.Name = "Enabled"
+Enabled_2.Parent = ESP
+Enabled_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Enabled_2.BackgroundTransparency = 1.000
+Enabled_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Enabled_2.BorderSizePixel = 0
+Enabled_2.Position = UDim2.new(0.0370370373, 0, 0.0857142881, 0)
+Enabled_2.Size = UDim2.new(0, 28, 0, 28)
+Enabled_2.Visible = false
+Enabled_2.Image = "rbxassetid://17072141175"
+
+UICorner_7.CornerRadius = UDim.new(0, 4)
+UICorner_7.Parent = ESP
+
+Noclip.Name = "Noclip"
+Noclip.Parent = Firstpanel_2
+Noclip.BackgroundColor3 = Color3.fromRGB(88, 88, 126)
+Noclip.BackgroundTransparency = 0.500
+Noclip.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Noclip.BorderSizePixel = 0
+Noclip.Position = UDim2.new(0.0325581394, 0, 0.272300482, 0)
+Noclip.Size = UDim2.new(0, 200, 0, 35)
+Noclip.Font = Enum.Font.GothamBold
+Noclip.Text = "Noclip"
+Noclip.TextColor3 = Color3.fromRGB(255, 255, 255)
+Noclip.TextSize = 24.000
+
+Enabled_3.Name = "Enabled"
+Enabled_3.Parent = Noclip
+Enabled_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Enabled_3.BackgroundTransparency = 1.000
+Enabled_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Enabled_3.BorderSizePixel = 0
+Enabled_3.Position = UDim2.new(0.0370370373, 0, 0.0857142881, 0)
+Enabled_3.Size = UDim2.new(0, 28, 0, 28)
+Enabled_3.Visible = false
+Enabled_3.Image = "rbxassetid://17072141175"
+
+UICorner_8.CornerRadius = UDim.new(0, 4)
+UICorner_8.Parent = Noclip
+
+Freezer.Name = "Freezer"
+Freezer.Parent = Firstpanel_2
+Freezer.BackgroundColor3 = Color3.fromRGB(88, 88, 126)
+Freezer.BackgroundTransparency = 0.500
+Freezer.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Freezer.BorderSizePixel = 0
+Freezer.Position = UDim2.new(0.0325581394, 0, 0.521126747, 0)
+Freezer.Size = UDim2.new(0, 200, 0, 35)
+Freezer.Font = Enum.Font.GothamBold
+Freezer.Text = "Freezer"
+Freezer.TextColor3 = Color3.fromRGB(255, 255, 255)
+Freezer.TextSize = 24.000
+
+Enabled_4.Name = "Enabled"
+Enabled_4.Parent = Freezer
+Enabled_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Enabled_4.BackgroundTransparency = 1.000
+Enabled_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Enabled_4.BorderSizePixel = 0
+Enabled_4.Position = UDim2.new(0.0370370373, 0, 0.0857142881, 0)
+Enabled_4.Size = UDim2.new(0, 28, 0, 28)
+Enabled_4.Visible = false
+Enabled_4.Image = "rbxassetid://17072141175"
+
+UICorner_9.CornerRadius = UDim.new(0, 4)
+UICorner_9.Parent = Freezer
+
+UICorner_10.Parent = Firstpanel_2
+
+Secondpanel_2.Name = "Secondpanel"
+Secondpanel_2.Parent = mainMainlol
+Secondpanel_2.BackgroundColor3 = Color3.fromRGB(29, 31, 39)
+Secondpanel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Secondpanel_2.BorderSizePixel = 0
+Secondpanel_2.Position = UDim2.new(0.519999981, 0, 0.028056113, 0)
+Secondpanel_2.Size = UDim2.new(0, 215, 0, 213)
+
+UICorner_11.Parent = Secondpanel_2
+
+FourthPanel_2.Name = "FourthPanel"
+FourthPanel_2.Parent = mainMainlol
+FourthPanel_2.BackgroundColor3 = Color3.fromRGB(29, 31, 39)
+FourthPanel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+FourthPanel_2.BorderSizePixel = 0
+FourthPanel_2.Position = UDim2.new(0.522222221, 0, 0.484969944, 0)
+FourthPanel_2.Size = UDim2.new(0, 215, 0, 213)
+
+UICorner_12.Parent = FourthPanel_2
+
+Thirdpanel_2.Name = "Thirdpanel"
+Thirdpanel_2.Parent = mainMainlol
+Thirdpanel_2.BackgroundColor3 = Color3.fromRGB(29, 31, 39)
+Thirdpanel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Thirdpanel_2.BorderSizePixel = 0
+Thirdpanel_2.Position = UDim2.new(0.0244444441, 0, 0.484969944, 0)
+Thirdpanel_2.Size = UDim2.new(0, 215, 0, 213)
+
+UICorner_13.Parent = Thirdpanel_2
+
+UICorner_14.Parent = mainMainlol
+
+configsMain.Name = "configsMain"
+configsMain.Parent = MAIN
+configsMain.BackgroundColor3 = Color3.fromRGB(46, 44, 54)
+configsMain.BorderColor3 = Color3.fromRGB(0, 0, 0)
+configsMain.BorderSizePixel = 0
+configsMain.Position = UDim2.new(0.0299999993, 0, 0.0659999996, 0)
+configsMain.Size = UDim2.new(0, 442, 0, 496)
+configsMain.Visible = false
+configsMain.ZIndex = 2
+
+Firstpanel_3.Name = "Firstpanel"
+Firstpanel_3.Parent = configsMain
+Firstpanel_3.BackgroundColor3 = Color3.fromRGB(29, 31, 39)
+Firstpanel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Firstpanel_3.BorderSizePixel = 0
+Firstpanel_3.Position = UDim2.new(0.0244444441, 0, 0.028056113, 0)
+Firstpanel_3.Size = UDim2.new(0, 426, 0, 479)
+
+defcfg.Name = "defcfg"
+defcfg.Parent = Firstpanel_3
+defcfg.BackgroundColor3 = Color3.fromRGB(35, 38, 53)
+defcfg.BackgroundTransparency = 0.200
+defcfg.BorderColor3 = Color3.fromRGB(0, 0, 0)
+defcfg.BorderSizePixel = 0
+defcfg.Position = UDim2.new(0.0352112688, 0, 0.118997909, 0)
+defcfg.Size = UDim2.new(0, 404, 0, 37)
+defcfg.Font = Enum.Font.GothamBold
+defcfg.Text = "default.cfg"
+defcfg.TextColor3 = Color3.fromRGB(255, 255, 255)
+defcfg.TextSize = 24.000
+defcfg.TextXAlignment = Enum.TextXAlignment.Left
+
+ImageLabel.Parent = defcfg
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(0.901743352, 0, 0.0810810775, 0)
+ImageLabel.Size = UDim2.new(0, 30, 0, 31)
+ImageLabel.Image = "rbxassetid://17072141175"
+
+UICorner_15.CornerRadius = UDim.new(0, 4)
+UICorner_15.Parent = defcfg
+
+saveurcfghere.Name = "saveurcfghere"
+saveurcfghere.Parent = Firstpanel_3
+saveurcfghere.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+saveurcfghere.BackgroundTransparency = 1.000
+saveurcfghere.BorderColor3 = Color3.fromRGB(0, 0, 0)
+saveurcfghere.BorderSizePixel = 0
+saveurcfghere.Position = UDim2.new(0.274647892, 0, 0, 0)
+saveurcfghere.Size = UDim2.new(0, 200, 0, 36)
+saveurcfghere.Font = Enum.Font.GothamMedium
+saveurcfghere.Text = "Сохраняйте ваши конфиги здесь."
+saveurcfghere.TextColor3 = Color3.fromRGB(255, 255, 255)
+saveurcfghere.TextSize = 22.000
+
+configisa.Name = "configisa"
+configisa.Parent = Firstpanel_3
+configisa.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+configisa.BackgroundTransparency = 1.000
+configisa.BorderColor3 = Color3.fromRGB(0, 0, 0)
+configisa.BorderSizePixel = 0
+configisa.Position = UDim2.new(0.037558686, 0, 0.887265146, 0)
+configisa.Size = UDim2.new(0, 403, 0, 60)
+configisa.Font = Enum.Font.GothamMedium
+configisa.Text = "Конфиг - текстовый документ где хранятся ваши настройки nefors.wtf."
+configisa.TextColor3 = Color3.fromRGB(175, 175, 175)
+configisa.TextSize = 17.000
+configisa.TextWrapped = true
+configisa.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel.Parent = Firstpanel_3
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.274647892, 0, 0.169102296, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 50)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "дефолт кфг, устанавливается всегда при включении  nefors.wtf."
+TextLabel.TextColor3 = Color3.fromRGB(207, 207, 207)
+TextLabel.TextSize = 15.000
+
+backgroundbutton.Name = "backgroundbutton"
+backgroundbutton.Parent = Firstpanel_3
+backgroundbutton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+backgroundbutton.BackgroundTransparency = 0.750
+backgroundbutton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+backgroundbutton.BorderSizePixel = 0
+backgroundbutton.Position = UDim2.new(0.363849759, 0, 0.782881021, 0)
+backgroundbutton.Size = UDim2.new(0, 122, 0, 56)
+backgroundbutton.Font = Enum.Font.SourceSans
+backgroundbutton.Text = ""
+backgroundbutton.TextColor3 = Color3.fromRGB(0, 0, 0)
+backgroundbutton.TextSize = 14.000
+
+UICorner_16.CornerRadius = UDim.new(0, 9)
+UICorner_16.Parent = backgroundbutton
+
+TextButton.Parent = Firstpanel_3
+TextButton.BackgroundColor3 = Color3.fromRGB(5, 138, 255)
+TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.363849759, 0, 0.782881021, 0)
+TextButton.Size = UDim2.new(0, 116, 0, 50)
+TextButton.Font = Enum.Font.Unknown
+TextButton.Text = "Новый конфиг."
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextSize = 14.000
+
+UICorner_17.Parent = TextButton
+
+UICorner_18.Parent = Firstpanel_3
+
+UICorner_19.Parent = configsMain
+
+backgroundmenu.Name = "backgroundmenu"
+backgroundmenu.Parent = MAIN
+backgroundmenu.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+backgroundmenu.BackgroundTransparency = 1.000
+backgroundmenu.BorderColor3 = Color3.fromRGB(0, 0, 0)
+backgroundmenu.BorderSizePixel = 0
+backgroundmenu.Position = UDim2.new(-0.0227413103, 0, -0.0230264701, 0)
+backgroundmenu.Size = UDim2.new(0, 494, 0, 566)
+backgroundmenu.Visible = false
+backgroundmenu.ZIndex = 0
+backgroundmenu.Image = "rbxassetid://17820503502"
+backgroundmenu.ImageColor3 = Color3.fromRGB(0, 0, 0)
+
+UICorner_20.CornerRadius = UDim.new(0, 9)
+UICorner_20.Parent = backgroundmenu
+
+backgroundmenu_2.Name = "backgroundmenu"
+backgroundmenu_2.Parent = MAIN
+backgroundmenu_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+backgroundmenu_2.BackgroundTransparency = 1.000
+backgroundmenu_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+backgroundmenu_2.BorderSizePixel = 0
+backgroundmenu_2.Position = UDim2.new(-0.00143679359, 0, 0.0675194114, 0)
+backgroundmenu_2.Rotation = 89.900
+backgroundmenu_2.Size = UDim2.new(0, 474, 0, 493)
+backgroundmenu_2.Visible = false
+backgroundmenu_2.ZIndex = 0
+backgroundmenu_2.Image = "rbxassetid://17820503502"
+backgroundmenu_2.ImageColor3 = Color3.fromRGB(0, 0, 0)
+
+UICorner_21.CornerRadius = UDim.new(0, 9)
+UICorner_21.Parent = backgroundmenu_2
+
+blur_background.Name = "blur_background"
+blur_background.Parent = MAIN
+blur_background.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+blur_background.BackgroundTransparency = 1.000
+blur_background.BorderColor3 = Color3.fromRGB(0, 0, 0)
+blur_background.BorderSizePixel = 0
+blur_background.Position = UDim2.new(-0.0269966293, 0, -0.0599268377, 0)
+blur_background.Size = UDim2.new(0, 496, 0, 609)
+blur_background.ZIndex = 0
+blur_background.Image = "rbxassetid://18382917275"
+blur_background.ImageColor3 = Color3.fromRGB(0, 0, 0)
+
+UICorner_22.CornerRadius = UDim.new(0, 9)
+UICorner_22.Parent = blur_background
+
+linebutton.Name = "linebutton"
+linebutton.Parent = MAIN
+linebutton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+linebutton.BackgroundTransparency = 0.050
+linebutton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+linebutton.BorderSizePixel = 0
+linebutton.Position = UDim2.new(0.26018104, 0, 1.02993667, 0)
+linebutton.Size = UDim2.new(0, 224, 0, 4)
+linebutton.Font = Enum.Font.SourceSans
+linebutton.Text = ""
+linebutton.TextColor3 = Color3.fromRGB(0, 0, 0)
+linebutton.TextSize = 14.000
+
+UICorner_23.CornerRadius = UDim.new(1, 7)
+UICorner_23.Parent = linebutton
+
+TextLabel_2.Parent = MAIN
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.310638309, 0, 0.453874528, 0)
+TextLabel_2.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_2.Font = Enum.Font.Gotham
+TextLabel_2.Text = "Нажми на что нибудь чтобы начать работу."
+TextLabel_2.TextColor3 = Color3.fromRGB(193, 193, 193)
+TextLabel_2.TextSize = 18.000
+
+version.Name = "version"
+version.Parent = MAIN
+version.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+version.BorderColor3 = Color3.fromRGB(0, 0, 0)
+version.BorderSizePixel = 0
+version.Position = UDim2.new(0.344993562, 0, 0.0184501838, 0)
+version.Size = UDim2.new(0, 57, 0, 25)
+version.ZIndex = 3
+version.Font = Enum.Font.GothamBold
+version.Text = "0.1"
+version.TextColor3 = Color3.fromRGB(255, 255, 255)
+version.TextSize = 27.000
+
+UICorner_24.CornerRadius = UDim.new(0, 5)
+UICorner_24.Parent = version
+
+bubblebutton.Name = "bubblebutton"
+bubblebutton.Parent = neforswtf
+bubblebutton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+bubblebutton.BackgroundTransparency = 1.000
+bubblebutton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+bubblebutton.BorderSizePixel = 0
+bubblebutton.Position = UDim2.new(0.343402237, 0, 0.403821647, 0)
+bubblebutton.Size = UDim2.new(0, 46, 0, 45)
+bubblebutton.Visible = false
+
+Logo.Name = "Logo"
+Logo.Parent = bubblebutton
+Logo.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+Logo.BackgroundTransparency = 0.200
+Logo.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Logo.BorderSizePixel = 0
+Logo.Size = UDim2.new(0, 45, 0, 46)
+Logo.Image = "http://www.roblox.com/asset/?id=77255060480096"
+
+UICorner_25.CornerRadius = UDim.new(0, 9)
+UICorner_25.Parent = Logo
+
+-- Scripts:
+
+local function TOKCGSH_fake_script() -- Autofarm.LocalScript 
+	local script = Instance.new('LocalScript', Autofarm)
+
+	local button = script.Parent
+	local enabledsticker = script.Parent.Enabled
+	
+	local TweenService = game:GetService("TweenService")
+	local Players = game:GetService("Players")
+	local player = Players.LocalPlayer
+	local character = player.Character or player.CharacterAdded:Wait()
+	local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+	
+	local Enabled = false
+	
+	local target = workspace:WaitForChild("Path1") -- Убедитесь, что объект существует
+	
+	local tweenInfo = TweenInfo.new(
+		1, -- Время анимации в секундах
+		Enum.EasingStyle.Linear, -- Стиль анимации
+		Enum.EasingDirection.Out, -- Направление анимации
+		0, -- Количество повторений
+		false -- Обратное воспроизведение
+	)
+	
+	local tween = TweenService:Create(humanoidRootPart, tweenInfo, {CFrame = target.CFrame})
+	
+	button.MouseButton1Click:Connect(function()
+		if enabledsticker.Visible == false and Enabled == false then
+			enabledsticker.Visible = true
+			Enabled = true
+			tween:Play()
+			tween.Completed:Wait()
+			if humanoidRootPart.CFrame == target.CFrame then
+				print("Moved to", target.CFrame)
+			end
+			enabledsticker.Visible = false
+			Enabled = false
+		else
+			tween:Cancel()
+			enabledsticker.Visible = false
+			Enabled = false
+		end
+	end)
+end
+coroutine.wrap(TOKCGSH_fake_script)()
+local function KZSVM_fake_script() -- configs.LocalScript 
+	local script = Instance.new('LocalScript', configs)
+
+	
+	local main = script.Parent.Parent
+	local autofarm = main.autofarm
+	local maintitle = main.maintitle
+	local configstitle = main.configs
+	local configsMain = main.configsMain
+	local mainMain = main.mainMainlol
+	local autofarmMain = main.autofarmMain
+	
+	configstitle.MouseButton1Click:Connect(function()
+		if configstitle.TextColor3 == Color3.new(0.54902, 0.54902, 0.54902) then
+			configstitle.TextColor3 = Color3.new(1, 1, 1)
+			maintitle.TextColor3 = Color3.new(0.54902, 0.54902, 0.54902)
+			autofarm.TextColor3 = Color3.new(0.54902, 0.54902, 0.54902)
+			configsMain.Visible = true
+			mainMain.Visible = false
+			autofarmMain.Visible = false
+		end
+	end)
+end
+coroutine.wrap(KZSVM_fake_script)()
+local function OEKHRS_fake_script() -- autofarm.LocalScript 
+	local script = Instance.new('LocalScript', autofarm)
+
+	
+	local main = script.Parent.Parent
+	local autofarm = main.autofarm
+	local maintitle = main.maintitle
+	local configstitle = main.configs
+	local configsMain = main.configsMain
+	local mainMain = main.mainMainlol
+	local autofarmMain = main.autofarmMain
+	
+	autofarm.MouseButton1Click:Connect(function()
+		if autofarm.TextColor3 == Color3.new(0.54902, 0.54902, 0.54902) then
+			autofarm.TextColor3 = Color3.new(1, 1, 1)
+			maintitle.TextColor3 = Color3.new(0.54902, 0.54902, 0.54902)
+			configstitle.TextColor3 = Color3.new(0.54902, 0.54902, 0.54902)
+			autofarmMain.Visible = true
+			configsMain.Visible = false
+			mainMain.Visible = false
+			print("autofarm is enabled")
+		end
+	end)
+end
+coroutine.wrap(OEKHRS_fake_script)()
+local function MCLM_fake_script() -- maintitle.LocalScript 
+	local script = Instance.new('LocalScript', maintitle)
+
+	
+	local main = script.Parent.Parent
+	local autofarm = main.autofarm
+	local maintitle = main.maintitle
+	local configstitle = main.configs
+	local configsMain = main.configsMain
+	local mainMain = main.mainMainlol
+	local autofarmMain = main.autofarmMain
+	
+	maintitle.MouseButton1Click:Connect(function()
+		if maintitle.TextColor3 ~= Color3.new(1, 1, 1) then
+			maintitle.TextColor3 = Color3.new(1, 1, 1)
+			autofarm.TextColor3 = Color3.new(0.54902, 0.54902, 0.54902)
+			configstitle.TextColor3 = Color3.new(0.54902, 0.54902, 0.54902)
+			configsMain.Visible = false
+			mainMain.Visible = true
+			autofarmMain.Visible = false
+	
+			print("maintitle menu is enabled")
+		end
+	end)
+end
+coroutine.wrap(MCLM_fake_script)()
+local function RBNL_fake_script() -- ESP.LocalScript 
+	local script = Instance.new('LocalScript', ESP)
+
+	local button = script.Parent
+	local enabledsticker = script.Parent.Enabled
+	
+	local Players = game:GetService("Players")
+	local player = Players.LocalPlayer
+	local character = player.Character or player.CharacterAdded:Wait()
+	local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+	
+	local Enabled = false
+	
+	local Players = game:GetService("Players")
+	local LocalPlayer = Players.LocalPlayer
+	
+	local function createHighlight(player)
+		if player == LocalPlayer then return end  -- Не хайлайтим себя
+	
+		local character = player.Character
+		if not character then return end
+	
+		local highlight = Instance.new("Highlight")
+		highlight.Name = player.Name .. "Highlight"
+		highlight.Parent = character
+		highlight.FillColor = Color3.new(1, 0, 0)
+		highlight.OutlineColor = Color3.new(1, 1, 1)
+	
+		local billboard = Instance.new("BillboardGui")
+		billboard.Name = player.Name .. "Billboard"
+		billboard.Parent = character.HumanoidRootPart
+		billboard.Size = UDim2.new(0, 100, 0, 50)
+		billboard.StudsOffset = Vector3.new(0, 3, 0)
+	
+		local textLabel = Instance.new("TextLabel")
+		textLabel.Parent = billboard
+		textLabel.BackgroundTransparency = 1
+		textLabel.Size = UDim2.new(1, 0, 1, 0)
+		textLabel.Font = Enum.Font.SourceSansBold
+		textLabel.TextColor3 = Color3.new(1, 1, 1)
+		textLabel.Text = player.Name
+		textLabel.TextSize = 14
+	end
+	
+	local function removeHighlight(player)
+		local character = player.Character
+		if not character then return end
+	
+		local highlight = character:FindFirstChild(player.Name .. "Highlight")
+		local billboard = character.HumanoidRootPart:FindFirstChild(player.Name .. "Billboard")
+	
+		if highlight then highlight:Destroy() end
+		if billboard then billboard:Destroy() end
+	end
+	
+	local function highlightAllPlayers()
+		for _, player in ipairs(Players:GetPlayers()) do
+			createHighlight(player)
+		end
+	end
+	
+	local function removeAllHighlights()
+		for _, player in ipairs(Players:GetPlayers()) do
+			removeHighlight(player)
+		end
+	end
+	
+	button.MouseButton1Click:Connect(function()
+		if enabledsticker.Visible == false and Enabled == false then
+			enabledsticker.Visible = true
+			Enabled = true
+			highlightAllPlayers()
+			print("esp is enabled")
+		else
+			removeAllHighlights()
+			print("esp is disabled")
+			enabledsticker.Visible = false
+			Enabled = false
+		end
+	end)
+end
+coroutine.wrap(RBNL_fake_script)()
+local function YBHZPPS_fake_script() -- Noclip.LocalScript 
+	local script = Instance.new('LocalScript', Noclip)
+
+	local button = script.Parent
+	local enabledsticker = script.Parent.Enabled
+	
+	local Players = game:GetService("Players")
+	local player = Players.LocalPlayer
+	local character = player.Character or player.CharacterAdded:Wait()
+	local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+	
+	local Players = game:GetService("Players")
+	local RunService = game:GetService("RunService")
+	
+	local player = Players.LocalPlayer
+	local character = player.Character or player.CharacterAdded:Wait()
+	local humanoid = character:WaitForChild("Humanoid")
+	
+	local isNoClipEnabled = false
+	
+	local function enableNoClip()
+		isNoClipEnabled = true
+		RunService:BindToRenderStep("NoClip", Enum.RenderPriority.Camera.Value, function()
+			for _, part in pairs(character:GetDescendants()) do
+				if part:IsA("BasePart") then
+					part.CanCollide = false
+				end
+			end
+		end)
+	end
+	
+	local function disableNoClip()
+		isNoClipEnabled = false
+		RunService:UnbindFromRenderStep("NoClip")
+	
+		for _, part in pairs(character:GetDescendants()) do
+			if part:IsA("BasePart") then
+				part.CanCollide = true
+			end
+		end
+	end
+	
+	-- Обработка respawn
+	player.CharacterAdded:Connect(function(newCharacter)
+		character = newCharacter
+		humanoid = character:WaitForChild("Humanoid")
+	
+		if isNoClipEnabled then
+			for _, part in pairs(character:GetDescendants()) do
+				if part:IsA("BasePart") then
+					part.CanCollide = false
+				end
+			end
+		end
+	end)
+	
+	local Enabled = false
+	
+	button.MouseButton1Click:Connect(function()
+		if enabledsticker.Visible == false and Enabled == false then
+			enabledsticker.Visible = true
+			enableNoClip()
+			print("noclip enabled")
+		else
+	        disableNoClip()
+			enabledsticker.Visible = false
+			Enabled = false
+			print("noclip disabled")
+		end
+	end)
+end
+coroutine.wrap(YBHZPPS_fake_script)()
+local function BRMUF_fake_script() -- Freezer.LocalScript 
+	local script = Instance.new('LocalScript', Freezer)
+
+	local button = script.Parent
+	local enabledsticker = script.Parent.Enabled
+	
+	local Players = game:GetService("Players")
+	local player = Players.LocalPlayer
+	local character = player.Character or player.CharacterAdded:Wait()
+	local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+	
+	local RunService = game:GetService("RunService")
+	local humanoid = character:WaitForChild("Humanoid")
+	
+	local isNoClipEnabled = false
+	
+	local function enableNoClip()
+		isNoClipEnabled = true
+		RunService:BindToRenderStep("NoClip", Enum.RenderPriority.Camera.Value, function()
+			for _, part in pairs(character:GetDescendants()) do
+				if part:IsA("BasePart") then
+					part.CanCollide = false
+					part.Anchored = true  -- Блокируем физику
+				end
+			end
+		end)
+	end
+	
+	local function disableNoClip()
+		isNoClipEnabled = false
+		RunService:UnbindFromRenderStep("NoClip")
+	
+		for _, part in pairs(character:GetDescendants()) do
+			if part:IsA("BasePart") then
+				part.CanCollide = true
+				part.Anchored = false  -- Разблокируем физику
+			end
+		end
+	end
+	
+	-- Обработка respawn
+	player.CharacterAdded:Connect(function(newCharacter)
+		character = newCharacter
+		humanoid = character:WaitForChild("Humanoid")
+	
+		if isNoClipEnabled then
+			for _, part in pairs(character:GetDescendants()) do
+				if part:IsA("BasePart") then
+					part.CanCollide = false
+					part.Anchored = true
+				end
+			end
+		end
+	end)
+	
+	local Enabled = false
+	
+	button.MouseButton1Click:Connect(function()
+		if enabledsticker.Visible == false and Enabled == false then
+			enabledsticker.Visible = true
+			enableNoClip()
+			print("noclip enabled")
+		else
+	        disableNoClip()
+			enabledsticker.Visible = false
+			Enabled = false
+			print("noclip disabled")
+		end
+	end)
+end
+coroutine.wrap(BRMUF_fake_script)()
+local function HSPRSTM_fake_script() -- MAIN.LocalScript 
+	local script = Instance.new('LocalScript', MAIN)
+
+	local UserInputService = game:GetService("UserInputService")
+	local TweenService = game:GetService("TweenService")
+	
+	local screenGui = script.Parent.Parent -- Ваш скринГуи
+	local frame = screenGui.MAIN -- Ссылка на конкретный фрейм
+	local isMenuVisible = true
+	
+	local function toggleMenu()
+		isMenuVisible = not isMenuVisible
+		if isMenuVisible then
+			-- Анимация появления
+			screenGui.Enabled = true
+			frame:TweenPosition(
+				UDim2.new(0.5, -frame.Size.X.Offset/2, 0.5, -frame.Size.Y.Offset/2), 
+				"Out", 
+				"Quad", 
+				0.2
+			)
+		else
+			-- Анимация исчезновения
+			frame:TweenPosition(
+				UDim2.new(0.5, -frame.Size.X.Offset/2, 1.5, 0),  -- Уход вниз
+				"In", 
+				"Quad", 
+				0.2
+			)
+			-- Отключаем после анимации
+			wait(0.2)
+			screenGui.Enabled = false
+		end
+	end
+	-- Обработчик нажатия Ctrl
+	UserInputService.InputBegan:Connect(function(input, gameProcessed)
+		if input.KeyCode == Enum.KeyCode.LeftControl and not gameProcessed then
+			toggleMenu()
+		end
+	end)
+end
+coroutine.wrap(HSPRSTM_fake_script)()
+local function TIXTWXP_fake_script() -- MAIN.movemenu 
+	local script = Instance.new('LocalScript', MAIN)
+
+	local frame = script.Parent
+	local UserInputService = game:GetService("UserInputService")
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		frame.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, 
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			dragging = true
+			dragStart = input.Position
+			startPos = frame.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	frame.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(TIXTWXP_fake_script)()
+local function EEUQ_fake_script() -- linebutton.LocalScript 
+	local script = Instance.new('LocalScript', linebutton)
+
+	local UserInputService = game:GetService("UserInputService")
+	local TweenService = game:GetService("TweenService")
+	
+	local screenGui = script.Parent.Parent.Parent -- Ваш скринГуи
+	local frame = screenGui.MAIN -- Ссылка на конкретный фрейм
+	local bubble_button = screenGui.bubblebutton
+	local isMenuVisible = true
+	
+	local function toggleMenu()
+		isMenuVisible = not isMenuVisible
+		if isMenuVisible then
+			-- Анимация появления
+			frame.Visible = true
+			
+			frame:TweenPosition(
+				UDim2.new(0.5, -frame.Size.X.Offset/2, 0.5, -frame.Size.Y.Offset/2), 
+				"Out", 
+				"Quad", 
+				0.2
+			)
+		end
+	end
+	
+	local function disableMenu()
+		frame:TweenPosition(
+			UDim2.new(0.5, -frame.Size.X.Offset/2, 1.5, 0),  -- Уход вниз
+			"In", 
+			"Quad", 
+			0.2
+		)
+		-- Отключаем после анимации
+		wait(0.2)
+		bubble_button.Visible = true
+		frame.Visible = false
+	end
+	-- Обработчик нажатия Ctrl
+	script.Parent.MouseButton1Click:Connect(function()
+		if isMenuVisible then
+			-- Анимация исчезновения
+			disableMenu()
+		else
+			-- Анимация появления
+			toggleMenu()
+		end
+	end)
+end
+coroutine.wrap(EEUQ_fake_script)()
+local function IQDVWT_fake_script() -- bubblebutton.movemenu 
+	local script = Instance.new('LocalScript', bubblebutton)
+
+	local frame = script.Parent.Logo
+	local UserInputService = game:GetService("UserInputService")
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		frame.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, 
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			dragging = true
+			dragStart = input.Position
+			startPos = frame.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	frame.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(IQDVWT_fake_script)()
+local function ZUKYOBX_fake_script() -- Logo.LocalScript 
+	local script = Instance.new('LocalScript', Logo)
+
+	local UserInputService = game:GetService("UserInputService")
+	local TweenService = game:GetService("TweenService")
+	
+	local screenGui = script.Parent.Parent.Parent -- Ваш скринГуи
+	local frame = screenGui.MAIN -- Ссылка на конкретный фрейм
+	local bubble_button = screenGui.bubblebutton
+	local isMenuVisible = false
+	
+	local function toggleMenu()
+		if frame.Visible == true then return end
+			-- Анимация появления
+			frame.Visible = true
+	
+			frame:TweenPosition(
+				UDim2.new(0.5, -frame.Size.X.Offset/2, 0.5, -frame.Size.Y.Offset/2), 
+				"Out", 
+				"Quad", 
+				0.2
+			)
+	end
+	
+	local function disableMenu()
+		if frame.Visible == true then
+			frame:TweenPosition(
+				UDim2.new(0.5, -frame.Size.X.Offset/2, 1.5, 0),  -- Уход вниз
+				"In", 
+				"Quad", 
+				0.2
+			)
+			-- Отключаем после анимации
+			wait(0.2)
+			frame.Visible = false
+		end
+	end
+	-- Обработчик нажатия Ctrl
+	script.Parent.MouseButton1Click:Connect(function()
+		if isMenuVisible then
+			-- Анимация исчезновения
+			disableMenu()
+		else
+			-- Анимация появления
+			toggleMenu()
+		end
+	end)
+end
+coroutine.wrap(ZUKYOBX_fake_script)()
